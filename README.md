@@ -1,12 +1,14 @@
-# Welcome to your CDK TypeScript Construct Library project
+# Welcome to your CDK TypeScript project
 
-You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`CdkGrantBug`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+This is a blank project for CDK development with TypeScript.
 
-The construct defines an interface (`CdkGrantBugProps`) to configure the visibility timeout of the queue.
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
 * `npm run build`   compile typescript to js
 * `npm run watch`   watch for changes and compile
 * `npm run test`    perform the jest unit tests
+* `npx cdk deploy`  deploy this stack to your default AWS account/region
+* `npx cdk diff`    compare deployed stack with current state
+* `npx cdk synth`   emits the synthesized CloudFormation template
